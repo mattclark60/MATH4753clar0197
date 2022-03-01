@@ -2,3 +2,4 @@
 
 export(fahrenheit_to_celsius)
 export(mybin)
+export(myncurve)
