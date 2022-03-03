@@ -1,8 +1,8 @@
 #' @title Sampling Function showing Binomial simulation
 #'
-#' @param iter
-#' @param n
-#' @param p
+#' @param iter first
+#' @param n 2nd param
+#' @param p 3rd param
 #'
 #' @return Bar plot of successes
 #'

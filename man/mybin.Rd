@@ -7,7 +7,11 @@
 mybin(iter = 100, n = 10, p = 0.5)
 }
 \arguments{
-\item{p}{}
+\item{iter}{first}
+
+\item{n}{2nd param}
+
+\item{p}{3rd param}
 }
 \value{
 Bar plot of successes
