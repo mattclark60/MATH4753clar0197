@@ -10,7 +10,7 @@
 #'
 #' @examples
 #'
-
+## test
 myddtfun2 <- function(df, x, y, cond, col){
 
   df1 <- df %>% filter({{cond}}) # Note the use of {{}}
