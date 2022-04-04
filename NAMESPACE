@@ -2,6 +2,7 @@
 
 export(fahrenheit_to_celsius)
 export(mybin)
+export(myboot2)
 export(myclt)
 export(myddtfun2)
 export(myncurve)
