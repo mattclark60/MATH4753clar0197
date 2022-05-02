@@ -1,0 +1,48 @@
+---
+title: "Package functions description"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Package functions description}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753clar0197)
+```
+
+# Introduction
+
+This is a package full of functions that I have created throughout the course.
+
+## Fahrenheit to celsius conversion calculator
+
+```{r}
+MATH4753clar0197::fahrenheit_to_celsius(40)
+```
+
+## myncurve function
+
+```{r}
+MATH4753clar0197::myncurve(5,3,2)
+```
+
+## mybin function
+
+```{r}
+MATH4753clar0197::mybin(iter=1000,n=18, p=0.3)
+```
+
+## myclt function
+
+```{r}
+MATH4753clar0197::myclt(10,30,a=2,b=5)
+```
+
